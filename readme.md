@@ -2,13 +2,17 @@
 
 Simple example of using server using socket.io to transmit data from one browser window to another. If you click and drag your mouse to draw on one screen, it will draw circles on the other.
 
-Slightly modified version is live online here: https://secure-sierra-92770.herokuapp.com/
+Working example is live here: https://secure-sierra-92770.herokuapp.com/
 
 Based off the example from the Coding Rainbow https://www.youtube.com/watch?v=bjULmG8fqc8
-
-To run locally you will need node.js installed https://nodejs.org/
  
 
+![Screencapture of two browser windows running application](screencapture.png "Screencapture of two browser windows running application")
+
+
+## To install locally
+
+To run locally you will need node.js installed https://nodejs.org/
 
 From the terminal:
 
@@ -27,7 +31,7 @@ The app will be running on http://localhost:8000/
 
 Open two browser windows, and then click and drag your mouse to paint. 
 
-![Screencapture of two browser windows running](screencapture.png "Screencapture of two browser windows running")
+
 
 
 
