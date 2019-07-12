@@ -1,24 +1,30 @@
 # IAT884 Socket Server example
 
-Simple example of using server using socket.io to transmit data from one browser window to another. 
+Simple example of using server using socket.io to transmit data from one browser window to another. If you click and drag your mouse to draw on one screen, it will draw circles on the other.
 
 Slightly modified version is live online here: https://secure-sierra-92770.herokuapp.com/
 
 Based off the example from the Coding Rainbow https://www.youtube.com/watch?v=bjULmG8fqc8
 
-To run locally you will need node.js installed https://nodejs.org/en/
+To run locally you will need node.js installed https://nodejs.org/
  
 
 
 From the terminal:
 
-use the cd command to enter into the directory
+Run the following command to download the repository
+`git clone https://github.com/emclaren/p5-node-server-socket-io-example.git` 
 
-running  `npm install` will download any required packages
-running `node server.js` will run the application on port 8000 
+Enter into the newly downlaoded directory
+`cd p5-node-server-socket-io-example/`
 
-You will need to open up two windows to http://localhost:8000/ in order to view
+Use `npm install` to download the required packages
 
-Click anddrag your mouse to paint in both browser windows simultaneously
+To start the server on port 8000 run:
+`node server.js` 
+
+The app will be running on http://localhost:8000/
+
+Open two browser windows, and then click and drag your mouse to paint. 
 
 
