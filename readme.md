@@ -27,4 +27,7 @@ The app will be running on http://localhost:8000/
 
 Open two browser windows, and then click and drag your mouse to paint. 
 
+![Screencapture of two browser windows running](screencapture.png "Screencapture of two browser windows running")
+
+
 
